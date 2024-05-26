@@ -1,0 +1,450 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Header hissesinin baslangici*/
+header{
+    width: 100%;
+    height: 10vh;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+.sol{
+    width: 20%;
+    height: 10vh;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.orta{
+    width: 60%;
+    height: 10vh;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+nav{
+    width: 60%;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.sag{
+    width: 20%;
+    height: 10vh;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.sagg{
+    border-radius: 40px;
+    width: 150px;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green; 
+    gap: 10px;
+}
+/*Header hissesinin sonu*/
+
+/*Orta hissesinin baslangici*/
+.umumi{
+    width: 100%;
+    height: 800vh;
+}
+.sekil{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://mresbec.files.wordpress.com/2020/11/blog-pic.jpg?w=1200);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.bsol{
+    border-radius: 40px;
+    width: 150px;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green; 
+    gap: 10px;
+    margin-top: 60px;
+}
+.bsoll{
+    width: 50%;
+    height: 30vh;
+    margin-left: 70px;
+}
+h3{
+    color: green;
+    margin-bottom: 10px;
+}
+h4{
+    font-size: 100px;
+    margin-bottom: 10px;
+}
+.duzbucaq{
+    width: 100%;
+    height: 35vh;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.kicik{
+    width: 25%;
+    height: 20vh;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h5{
+    font-size: 20px;
+    margin-bottom: 10px;
+   
+}
+.center{
+    width: 90%;
+    height: 90vh;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 20vh;
+}
+.left{
+    width: 40%;
+    height: 90vh;
+    background-image: url(https://notesread.com/wp-content/uploads/2019/12/environmental-management-system.jpg);
+    background-size: cover;
+}
+.right{
+    width: 50%;
+    height: 90vh;
+    margin-left: 80px;
+}
+.rbox{
+    width: 100%;
+    height: 15px;
+    border: 1px solid black;
+    margin-top: 20px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+h6{
+    margin-top: 20px;
+    margin-left: 90%;
+    font-size: 20px;
+}
+.layout{
+    width: 80%;
+    height: 7px;
+    background-color: blue;
+    margin-top: 3px;
+    border-top-right-radius:50px ;
+    border-bottom-right-radius:50px ;
+}
+.layout1{
+    width: 95%;
+    height: 7px;
+    background-color: red;
+    margin-top: 3px;
+    border-top-right-radius:50px ;
+    border-bottom-right-radius:50px ;
+}
+.layout2{
+    width: 70%;
+    height: 7px;
+    background-color: green;
+    margin-top: 3px;
+    border-top-right-radius:50px ;
+    border-bottom-right-radius:50px ;
+}
+.saag{
+    margin-top: 20px;
+    margin-left: 0%;
+    font-size: 20px; 
+}
+.yazi{
+    width: 90%;
+    height: 40vh;
+    margin-top: 30%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.yazil{
+    width: 90%;
+    margin-top: 30px;
+}
+.yazir{
+    width: 90%;
+    margin-top: 110px;
+}
+.foto{
+    width: 100%;
+    height: 70vh;
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+}
+.fotol{
+    width: 30%;
+    height: 40vh;
+    background-image: url(https://www.ecology.gen.tr/images/ECOLOGY2/deep-ecology.jpg);
+    background-size: cover;
+}
+.umumi>.foto>.fotol>h5{
+    margin-top: 41vh;
+    text-align: center;
+}
+.fotox{
+    border-radius: 40px;
+    width: 150px;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green; 
+    gap: 10px;
+    margin-top:50px;
+    margin-left: 30%; 
+}
+.ikkon{
+    display: flex;
+    justify-content: space-around;
+}
+.fotol:hover{
+    transform: scaleX(1.1);
+}
+.ortaicon{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+}
+.bimage{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+.b1image{
+    width: 30%;
+    height: 40vh;
+    background-image: url(https://html.ditsolution.net/echofy/assets/images/home7/project-2.png);
+}
+.b2image{
+    width: 30%;
+    height: 40vh;
+    background-image: url(https://html.ditsolution.net/echofy/assets/images/home7/project-3.png);
+}
+.b3image{
+    width: 30%;
+    height: 40vh;
+    background-image: url(https://html.ditsolution.net/echofy/assets/images/home7/project-1.png);
+}
+.yazio{
+    text-align: center;
+    margin-top: 30px;
+}
+.merkez{
+width: 100%;
+height: 80vh;
+display: flex;
+margin-top: 50px;
+}  
+.msol{
+    background-image: url(https://insaatelemani.com/wp-content/uploads/2019/10/yurtdisi-iyi-kazandiran-isler.jpg);
+    background-size: cover;
+    width: 50%;
+    height: 80vh; 
+}
+.msag{
+    width: 50%;
+    height: 80vh;
+    margin-top: 80px; 
+}
+.msagm{
+    width: 50%;
+    height: 30vh;
+    margin-left: 50px;
+}
+.msagm>h5{
+    font-size: 40px;
+}
+.mmsag{
+    width: 70%;
+    height: 25vh;
+    background-color: azure;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25%;
+    font-size: 50px;
+}
+.dyasil{
+    width: 100%;
+    height: 30vh;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10vh;
+    font-size: 50px;
+}
+.gif{
+    width: 100%;
+    height: 140vh;
+    background-image: url(https://i.pinimg.com/originals/99/f9/5e/99f95ee41c3def28268cc3877f103daf.gif);
+    background-size: cover;
+    
+}
+.gif>h3{
+    text-align: center;
+    padding-top: 8vh;
+}
+.gif>h5{
+    text-align: center;
+    padding-top: 2vh;
+    font-size: 30px;
+}
+.sgif{
+    width: 34%;
+    height: 30vh;
+    color: blue;
+    
+
+}
+.gifs{
+    width: 34%;
+    height: 30vh;
+    color: blue;
+}
+.gifm{
+    width: 100%;
+    height:35vh;
+    display: flex;
+   justify-content: center;
+   gap: 10px;
+}
+.cedvel{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+
+}
+.xerite{
+    width: 50%;
+    height: 90vh;
+    background-image: url(https://azculture.uz/img/fiziki_xerite12.jpg);
+    background-size: cover;
+}
+.icedvel{
+    width: 50%;
+    height: 90vh; 
+}
+input{
+    width: 300px;
+    margin-top: 70px;
+    margin-left: 40px;
+}
+.icedvel>h2{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.metn{
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.kicikk{
+    wwidth: 150px;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green; 
+    gap: 10px;
+}
+.hereket{
+    width: 100%;
+    height: 30vh;
+    background-color: greenyellow;
+    
+}
+.yazb{
+    font-size: 80px;
+    height: 30vh;
+    padding-top: 9vh;
+}
+/*Orta hissesinin sonu*/
+
+
+
+/*Footer hissesinin baslangici*/
+footer{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    margin-top: 160px;
+    justify-content: space-around;
+    background-image: url(https://t3.ftcdn.net/jpg/05/00/76/76/360_F_500767658_mtWlGY0Nbz32SCyZvPfWyu4OxBpeYMjA.jpg);
+    background-size: cover;
+}
+.bir{
+    width: 20%;
+    margin-top: 100px;
+    
+}
+.bir>h2+p{
+    margin-top: 50px;
+}
+.iki{
+    width: 15%;
+    margin-top: 100px;
+}
+.iki>h2+p{
+    margin-top: 50px;
+}
+.uc{
+    width: 30%;
+    margin-top: 100px;
+}
+.dord{
+    width: 15%;
+    margin-top: 100px;
+}
+.isare{
+     font-size: 30px;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.ucc{
+    width: 100%;
+    
+}
